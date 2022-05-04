@@ -13,7 +13,6 @@ button.addEventListener('click', () => {
     // const b = Math.floor(Math.random() * 255) 
     const newColor = makeRandColor()
     document.body.style.backgroundColor = newColor //updating new color of body
-
     h1.innerText = newColor // changes innerText to the newColor output
 })
 
